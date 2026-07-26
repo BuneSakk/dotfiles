@@ -34,9 +34,9 @@ hl.config({
     decoration = {
         rounding           = 15,
         rounding_power     = 3,
-        active_opacity     = 0.9,
+        active_opacity     = 0.8,
         inactive_opacity   = 0.8,
-        fullscreen_opacity = 1.0,
+        fullscreen_opacity = 0.8,
  
 
      blur = {
