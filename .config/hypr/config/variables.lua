@@ -4,7 +4,7 @@ TERMINAL     = "kitty"
 FILE_MANAGER = "nautilus"
 BROWSER      = "chromium"
 EDITOR       = "code"
-CALCULATOR   = "vicinae toggle"
+CALCULATOR   = "noctalia msg panel-toggle launcher '/calc ' "
 
 -- Monitors
 MONITOR1 = ""
