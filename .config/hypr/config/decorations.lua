@@ -34,9 +34,9 @@ hl.config({
     decoration = {
         rounding           = 15,
         rounding_power     = 3,
-        active_opacity     = 0.8,
+        active_opacity     = 0.9,
         inactive_opacity   = 0.8,
-        fullscreen_opacity = 0.8,
+        fullscreen_opacity = 0.9,
  
 
      blur = {
@@ -54,15 +54,6 @@ hl.config({
 
 
 
-hl.layer_rule({
-  name = "noctalia",
-  match = {
-    namespace = "^noctalia-(bar-.+|notification|dock|panel|attached-panel|osd|window-switcher)$",
-  },
-  no_anim = true,
-  ignore_alpha = 0.5,
-  blur = true,
-  blur_popups = true,
-})
+
 
 

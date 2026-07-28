@@ -128,6 +128,44 @@ hl.window_rule({
 })
 
 hl.window_rule({
-  match   = { class = "chromium" },
-  opacity = "1.0 override 0.9 override 1 override",
+  match   = { 
+  class = "chromium",
+  title = "(.*)(JioHotstar)(.*)",
+  },
+  opacity = "1 override 1 override 1 override",
+})
+
+hl.window_rule({
+	match = {
+	  class = "chromium",
+	  title = "(.*)(YouTube)(.*)",
+	},
+	opacity = "1 override 1 override 1 override",
+})
+
+hl.window_rule({
+	match = {
+		class = "com.shellyorg.shelly"
+	},
+	float = true,
+	opacity = "0.9",
+})
+
+
+hl.window_rule({
+	match = {
+		class = "org.gnome.Nautilus"
+	},
+	float = true,
+})
+
+hl.layer_rule({
+  name = "noctalia",
+  match = {
+    namespace = "^noctalia-(bar-.+|notification|dock|panel|attached-panel|osd|window-switcher)$",
+  },
+  no_anim = true,
+  ignore_alpha = 0.5,
+  blur = true,
+  blur_popups = true,
 })
