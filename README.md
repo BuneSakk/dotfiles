@@ -1,10 +1,10 @@
 # My Configs 🚀
 
-Welcome to **bunes** - This repo includes my dots, which I am currently managing using Stow to crete symlinks and version controlling it using git so that I could easily revert back in case of a mistake or I could use it on other machines. The software I am using will be shared below, so that whever I need to install my dots on a new system, I could easily install packages and not forget about them. Its more of a me-repo, rather then a pre-configured setup. Feel free to yoink whaterver you like. 
+Welcome to **dotfiles** - This repo includes my dots, which I am currently managing using Stow to crete symlinks and version controlling it using git so that I could easily revert back in case of a mistake or I could use it on other machines. The software I am using will be shared below, so that whever I need to install my dots on a new system, I could easily install packages and not forget about them. Its more of a me-repo, rather then a pre-configured setup. Feel free to yoink whaterver you like. 
 
 # Packages 
->  ### Terminal / Terminal Components
-  - Helix 
+>  ### Terminal / Terminal Components 
+  - Micro
   - Fastfech
   - Starship
   - Fish Shell
@@ -31,7 +31,7 @@ Welcome to **bunes** - This repo includes my dots, which I am currently managing
    - Grim
 
 >  ### Cursor Theme
-    - Babata 
+    - Bibata 
    ### Fonts
    - Hurmit Nerd Font
    - Noto Sans Emoji
