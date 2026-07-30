@@ -13,10 +13,10 @@ Welcome to **dotfiles** - This repo includes my dots, which I am currently manag
   - Kitty
   - [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts.git)
   
->  ### Window Manges / Components
+>  ### Window Manager(s) / Components
+   - Niri
    - Hyprland
-   - Noctalia [bar, osd, lock screen, idle inhabitor, polkit agent, colors, wallpapers]
-   - Vicinae [ Launcher ]    
+   - Noctalia [bar, osd, lock screen, idle inhabitor, polkit agent, colors, wallpapers, launcher]    
 >  ### Misc Apps
    - Image Viewer ( gnome )
    - Videos ( gnome )
