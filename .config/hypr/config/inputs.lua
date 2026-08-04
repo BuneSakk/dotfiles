@@ -2,7 +2,7 @@
 
 hl.config({
     input = {
-     accel_profile = "flat",
+     accel_profile = "adaptive",
 
 
       touchpad = {
