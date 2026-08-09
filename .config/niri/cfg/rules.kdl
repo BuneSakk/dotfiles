@@ -52,8 +52,8 @@ blur {
 }
 
 
-/-window-rule {
-    match app-id="chromium"
+window-rule {
+    match app-id="chromium" title="YouTube"
     opacity 1.0
     background-effect {
       blur false
