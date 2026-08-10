@@ -2,3 +2,11 @@
 .config/kitty/kitty.conf.bak
 .config/kitty/themes
 .config/kitty/current-theme.conf
+.local/state/noctalia/clipboard/
+.local/state/noctalia/plugins/
+.local/state/noctalia/notification_history.json
+.local/state/noctalia/recently_used.json
+.local/state/noctalia/state.toml
+.local/state/noctalia/usage_counts.json
+.local/state/noctalia/.setup-complete
+.local/state/noctalia/plugin-cache/

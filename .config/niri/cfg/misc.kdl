@@ -21,5 +21,6 @@
 
 
 switch-events {
-    lid-close { spawn "noctalia" "msg" "session" "lock-and-suspend"; }
+    lid-close { spawn "noctalia" "msg" "session" "suspend"; }
+    lid-open { spawn "noctalia" "msg" "session" "lock"; }
 }
