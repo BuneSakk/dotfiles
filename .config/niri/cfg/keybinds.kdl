@@ -11,7 +11,7 @@ binds {
     // ─── Applications ───
     MOD+RETURN                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
     MOD+SPACE                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
-    MOD+W                               hotkey-overlay-title="Open Browser: chromium-browser" { spawn "chromium-browser"; }
+    MOD+W                               hotkey-overlay-title="Open Browser: zen_browser" { spawn-sh "flatpak run app.zen_browser.zen"; }
     MOD+V                         { spawn-sh "noctalia msg panel-toggle clipboard"; }
     MOD+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "noctalia msg session lock "; }
     Mod+Comma                           { spawn-sh "noctalia msg settings-toggle"; }

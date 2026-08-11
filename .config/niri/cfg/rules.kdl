@@ -53,8 +53,8 @@ blur {
 
 
 window-rule {
-    match app-id="chromium" title="YouTube" 
-    match app-id="chromium" title="JioHotstar"
+    match app-id="app.zen_browser.zen" title="YouTube" 
+    match app-id="app.zen_browser.zen" title="JioHotstar"
     opacity 1.0
     background-effect {
       blur false
@@ -65,6 +65,8 @@ window-rule {
 
 window-rule {
     exclude app-id="kitty"
+    match app-id=""
+    match app-id="app.zen_browser.zen"
     open-maximized true
     open-maximized-to-edges false
 }
