@@ -27,6 +27,7 @@ This repo also, contains some future-use commands/assets. Like reference for set
    - Image Viewer ( gnome )
    - Videos ( gnome )
    - Video Player ( gnome )
+   - Sushi ( file preview )
   
 >  ### Serives 
    - [bluez-utils](https://archlinux.org/packages/?name=bluez-utils) 
@@ -83,6 +84,11 @@ This repo also, contains some future-use commands/assets. Like reference for set
  # Intel GPU Drivers
   ```
   sudo dnf5 install mesa-dri-drivers mesa-vulkan-drivers mesa-libGL mesa-demos
+  ```
+
+ # Nautilus Related Packages
+  ```
+  sudo dnf5 install nautilus sushi nautilus-python
   ```
 
   # Audio/Microphone (Pipewire)
